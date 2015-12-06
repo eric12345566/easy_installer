@@ -21,4 +21,9 @@ sudo apt-get install php5-mysql
 
 sudo apt-get install phpmyadmin
 
+#fix phpmyadmin no mcrypt
+
+sudo php5enmod mcrypt
+
+
 echo "All install is complete" 
